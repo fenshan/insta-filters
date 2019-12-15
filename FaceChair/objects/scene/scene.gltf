@@ -1,0 +1,330 @@
+{
+  "accessors": [
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 29248,
+      "max": [
+        10.035690307617188,
+        11.701530456542969,
+        14.517979621887207
+      ],
+      "min": [
+        -10.035690307617188,
+        -10.773750305175781,
+        -3.8408699035644531
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 350976,
+      "componentType": 5126,
+      "count": 29248,
+      "max": [
+        1,
+        0.99999195337295532,
+        0.99998468160629272
+      ],
+      "min": [
+        -1,
+        -0.99999696016311646,
+        -0.99999910593032837
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 165294,
+      "max": [
+        29247
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 701952,
+      "componentType": 5126,
+      "count": 14544,
+      "max": [
+        9.0985202789306641,
+        -6.920219898223877,
+        7.7527298927307129
+      ],
+      "min": [
+        -9.0985202789306641,
+        -10.541299819946289,
+        -1.9550199508666992
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 876480,
+      "componentType": 5126,
+      "count": 14544,
+      "max": [
+        0.99675947427749634,
+        0.83657920360565186,
+        0.99999970197677612
+      ],
+      "min": [
+        -0.99675947427749634,
+        -0.99999994039535522,
+        -0.9429582953453064
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 661176,
+      "componentType": 5125,
+      "count": 76146,
+      "max": [
+        14543
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1051008,
+      "componentType": 5126,
+      "count": 7066,
+      "max": [
+        8.2322502136230469,
+        5.9132099151611328,
+        -2.4288198947906494
+      ],
+      "min": [
+        -8.2322502136230469,
+        -9.936579704284668,
+        -4.4004597663879395
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1135800,
+      "componentType": 5126,
+      "count": 7066,
+      "max": [
+        1,
+        0.99996656179428101,
+        0.93792152404785156
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 965760,
+      "componentType": 5125,
+      "count": 41076,
+      "max": [
+        7065
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "JuanG3D (https://sketchfab.com/juang3d)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/fe97624ba34d4334933e9f7830eb04b0",
+      "title": "Club Chair"
+    },
+    "generator": "Sketchfab-3.18.7",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1130064,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1220592,
+      "byteOffset": 1130064,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2350656,
+      "uri": "scene.bin"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.030631150186000003,
+        0,
+        0
+      ],
+      "name": "GralMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.472297455516,
+          0.0081905213149999993,
+          0.0081905213149999993,
+          1
+        ],
+        "metallicFactor": 0.39800843050000001,
+        "roughnessFactor": 0.28123685249999997
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "NailsMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.28000000000000003
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "WoodMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.72416643489999999,
+          0.26691331569999999,
+          0.044734911099999997,
+          1
+        ],
+        "metallicFactor": 0.070000000000000007,
+        "roughnessFactor": 0.46999999999999997
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Chair",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0
+          },
+          "indices": 2,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Chair",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3
+          },
+          "indices": 5,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Chair",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 7,
+            "POSITION": 6
+          },
+          "indices": 8,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "Root"
+    },
+    {
+      "children": [
+        4,
+        5,
+        6
+      ],
+      "name": "Chair"
+    },
+    {
+      "mesh": 0,
+      "name": "Chair"
+    },
+    {
+      "mesh": 1,
+      "name": "Chair"
+    },
+    {
+      "mesh": 2,
+      "name": "Chair"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
+
